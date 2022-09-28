@@ -1,0 +1,26 @@
+whitelist:
+    permission_denied: §4Permission Denied.
+    reason_required: §4You Must provide a reason for it.
+    add_success: §aSuccessfully added §e{0} §ato the whitelist
+    remove_success: §aSuccessfully removed §e{0} §afrom the whitelist.
+    clear_success: §aSuccessfully cleared all logs.
+    allow_success: §aSuccessfully removed §e{0} §afrom deny list.
+    deny_success: §aSuccessfully add §e{0} §ato deny list.
+    operation_add: §aAdd
+    operation_remove: §4Remove
+    query_result_title: §aOperation  §eSource   §9Target    §7Time  §fReason
+    help: |
+        §aUsage:§r
+        §lAdd: §r!!whitelist add [player]
+        §lRemove: §r!!whitelist remove [player]
+        §lQuery: §r
+            !!whitelist query              // Query all operation records
+            !!whitelist query -n [number]  // Query the latest n operation records, defaults to 10 if not specified.
+            !!whitelist query -s [player]  // Query the operation records of this player
+            !!whitelist query -t [player]  // Query the operation records targeting this player
+            §lParameters can be combined with each other, for example:§r
+            !!whitelist query -n 10 -s demo -t demo2
+        §4For admins:§r
+        §lClear logs: §r!!whitelist clear
+        §lDeny a player to perform actions: §r!!whitelist deny [player]
+        §lRemove a player from deny list: §r!!whitelist allow [player]

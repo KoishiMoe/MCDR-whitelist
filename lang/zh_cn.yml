@@ -1,0 +1,26 @@
+whitelist:
+    permission_denied: §4权限不足
+    reason_required: §4请提供操作备注
+    add_success: §a成功将玩家 §e{0} §a加入白名单
+    remove_success: §a成功将玩家 §e{0} §a从白名单移除
+    clear_success: §a清除日志成功.
+    allow_success: §a成功将玩家 §e{0} §a移出拒绝列表
+    deny_success: §aS成功将玩家 §e{0} §a加入拒绝列表.
+    operation_add: §a添加
+    operation_remove: §4移除
+    query_result_title: §a类型  §e发起人   §9目标    §7时间  §f备注
+    help: |
+        §a使用方法:§r
+        §l加入白名单: §r!!whitelist add [player]
+        §l移出白名单: §r!!whitelist remove [player]
+        §l查询操作日志: §r
+            !!whitelist query              // 查询所有日志
+            !!whitelist query -n [number]  // 查询最近n条日志，默认为10
+            !!whitelist query -s [player]  // 查询该玩家执行的操作
+            !!whitelist query -t [player]  // 查询以该玩家为目标的操作
+            §l参数间可以相互组合，例如：§r
+            !!whitelist query -n 10 -s demo -t demo2
+        §4管理员指令：§r
+        §l清空日志: §r!!whitelist clear
+        §l禁止某个玩家操作白名单: §r!!whitelist deny [player]
+        §l取消对某个玩家操作白名单的限制: §r!!whitelist allow [player]

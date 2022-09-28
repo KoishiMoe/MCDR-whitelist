@@ -1,15 +1,16 @@
 {
-    "id": "my_plugin",
-    "version": "1.0.0",
-    "name": "My Plugin",
-    "description": "This description is a description to your plugin",
+    "id": "whitelist",
+    "version": "0.1.0",
+    "name": "MCDR-whitelist",
+    "description": "A mcdr plugin that provides whitelist operation permissions for non-admin players, with operation records",
     "author": [
-        "You"
+        "KoishiMoe"
     ],
-    "link": "https://github.com/MCDReforged/MCDReforged-PluginTemplate",
+    "link": "https://github.com/KoishiMoe/MCDR-whitelist",
     "dependencies": {
+        "mcdreforged": ">=2.0.0-alpha.1"
     },
-
+    "archive_name": "whitelist",
     "resources": [
         "lang"
     ]
