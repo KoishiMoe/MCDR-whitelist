@@ -1,6 +1,6 @@
 {
     "id": "whitelist",
-    "version": "0.1.0",
+    "version": "0.1.1",
     "name": "MCDR-whitelist",
     "description": "A mcdr plugin that provides whitelist operation permissions for non-admin players, with operation records",
     "author": [

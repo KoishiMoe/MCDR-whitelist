@@ -11,8 +11,8 @@ whitelist:
     query_result_title: §aOperation  §eSource   §9Target    §7Time  §fReason
     help: |
         §aUsage:§r
-        §lAdd: §r!!whitelist add [player]
-        §lRemove: §r!!whitelist remove [player]
+        §lAdd: §r!!whitelist add [player] [reason]
+        §lRemove: §r!!whitelist remove [player] [reason]
         §lQuery: §r
             !!whitelist query              // Query all operation records
             !!whitelist query -n [number]  // Query the latest n operation records, defaults to 10 if not specified.

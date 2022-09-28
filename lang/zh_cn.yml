@@ -11,8 +11,8 @@ whitelist:
     query_result_title: §a类型  §e发起人   §9目标    §7时间  §f备注
     help: |
         §a使用方法:§r
-        §l加入白名单: §r!!whitelist add [player]
-        §l移出白名单: §r!!whitelist remove [player]
+        §l加入白名单: §r!!whitelist add [player] [reason]
+        §l移出白名单: §r!!whitelist remove [player] [reason]
         §l查询操作日志: §r
             !!whitelist query              // 查询所有日志
             !!whitelist query -n [number]  // 查询最近n条日志，默认为10
