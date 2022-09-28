@@ -12,6 +12,8 @@
     },
     "archive_name": "whitelist",
     "resources": [
-        "lang"
+        "lang",
+        "README.md",
+        "LICENSE"
     ]
 }
